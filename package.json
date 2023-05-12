@@ -1,0 +1,23 @@
+{
+  "name": "@conorw/conorw-server",
+  "version": "1.0.0",
+  "description": "NFT Collection Factory Event Listener",
+  "license": "UNLICENSED",
+  "scripts": {
+    "run:server": "node ./src/server.js"
+  },
+  "dependencies": {
+    "eth-log-parser": "^0.1.0",
+    "ethereum-events": "^0.1.3",
+    "http": "^0.0.1-security",
+    "p-limit": "^3.0.1",
+    "safe-memory-cache": "^2.0.0",
+    "web3": "^1.10.0"
+  },
+  "keywords": [
+    "conorw",
+    "server",
+    "nft"
+  ],
+  "author": "ConorW"
+}
